@@ -1,21 +1,3 @@
-// 1.) create a new stack
-// 2.) setup constructor function
-// 3.) constructor function should take no args
-    // 3a.) should initiate a head of null
-    // 3b.) should initiate a minimum val as null
-    // 3c.) should initiate a length property to be 0
-
-// 4.) should create a pop method
-// 5.) should create a push method
-// 6.) should create a min method
-
-// [1, 6, 4, 3]
-
-//push method keeps track of the min
-//pop() off the end
-//so we lose 1
-//how do we check the new min
-
 class Node{
     constructor(val){
         this.value = val;
@@ -69,18 +51,3 @@ class Stack {
         return this.minimum[0]
     }
 }
-
-
-// let testStack = new Stack()
-
-// testStack.push(7)
-// testStack.push(12)
-// testStack.push(3)
-// testStack.push(9)
-// testStack.push(4)
-// testStack.push(1)
-// console.log(testStack.min());
-// testStack.pop()
-// console.log(testStack.min())
-// testStack.pop()
-// console.log(testStack.min())
